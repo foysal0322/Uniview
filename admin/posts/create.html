@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+       <meta charset="utf-8">
+
+       <title>Uniview | Admin Panel-Add Post</title>
+
+       <meta name="description" content="">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <link rel="stylesheet" href="../../css/font-awesome.min.css">
+
+       <link rel="stylesheet" href="../../css/style.css">
+
+       <link rel="stylesheet" href="../../css/admin.css">
+
+
+  </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <h1 class="logo-text">UniView</h1>
+            </div>
+
+            <ul class="">
+                <li>
+                    <a href="#">Mahmud</a>
+                    <ul>
+                        <li><a href="#" class="logout">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+
+        <!-- Admin Page Wrapper -->
+        <div class="admin-wrapper">
+
+            <!-- Left Sidebar -->
+            <div class="left-sidebar">
+                <ul>
+                    <li><a href="index.html">Manage Posts</a></li>
+                    <li><a href="../users/index.html">Manage Users</a></li>
+                    <li><a href="../topics/index.html">Manage Topics</a></li>
+                </ul>
+            </div>
+            <!-- // Left Sidebar -->
+
+
+            <!-- Admin Content -->
+            <div class="admin-content">
+                <div class="button-group">
+                    <a href="create.html" class="btn btn-big">Add Post</a>
+                    <a href="index.html" class="btn btn-big">Manage Posts</a>
+                </div>
+
+
+                <div class="content">
+
+                    <h2 class="page-title">Manage Posts</h2>
+
+                    <form action="create.html" method="post">
+                        <div>
+                            <label>Title</label>
+                            <input type="text" name="title" class="text-input">
+                        </div>
+                        <div>
+                            <label>Body</label>
+                            <textarea name="body" id="body" class="body-box"></textarea>
+                        </div>
+                        <div>
+                            <label>Image</label>
+                            <input type="file" name="image" class="text-input">
+                        </div>
+                        <div>
+                            <label>Topic</label>
+                            <select name="topic" class="text-input">
+                                <option value="nsu">North South University</option>
+                                <option value="du">Dhaka University</option>
+                                <option value="buet">Bangladesh University of Engineering & Technology</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-big">Add Post</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- // Admin Content -->
+
+        </div>
+        <!-- // Page Wrapper -->
+
+    </body>
+
+</html>

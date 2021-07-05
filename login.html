@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login_signup_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">UniView</a>
+  <div class="header-right">
+    <a  href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About us</a>
+    <button class="btn login">Log in</button>
+<button onclick="document.location='signup.html'"  class="btn signup">Sign Up</button>
+    
+  </div>
+</div>
+
+
+<div class="main">
+  <h1> Login </h1>
+  <form class="example" method="POST" action="login.php">
+    <p>Username</p>
+    <input type="text" placeholder="Enter your Username" name="email">
+    <p>Password</p>
+    <input type="password" placeholder="Enter your password" name="password">
+
+      <button type="submit"> Submit</button>
+
+
+
+      <p><a href="#"> forgot password? </a></p>
+
+
+
+      <p> No Account? <a href="signup.html"> Create Account</a></p>
+
+
+
+  </form>
+
+</div>
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
